@@ -3,9 +3,12 @@ body{
     margin: 0;
 }
 
-.flex-display{
-    display: flex;
+section{
     margin-bottom: 100px;
+}
+
+.flex-display{
+    display: inline-flex;
 }
 
 .half-width{
@@ -27,9 +30,12 @@ h1 span{
     color: orange;
 }
 
+h2{
+    font-size: 50px;
+}
+
 h3{
     color: gray;
-
 }
 
 .link-button{
@@ -47,12 +53,41 @@ h3{
     background-size: 100%;
 }
 
-h2{
-    font-size: 50px;
+.about-me h2{
     padding-top: 200px;
     color: rgba(0, 0, 0, 0.65)
 }
 
 .half-width p{
     padding-right: 250px;
+}
+
+.my-recipes{
+    margin: 5%;
+}
+
+#recipe-header{
+    text-align: center;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.65)
+}
+
+#recipe-caption{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.recipe-item{
+    flex-wrap: wrap;
+    width: 23%;
+    margin: 3%;
+    padding: 10px;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 30px;
+}
+
+.recipe-item img{
+    width: 100%;
+    border-radius: 30px;
 }
