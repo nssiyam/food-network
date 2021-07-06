@@ -5,6 +5,7 @@ body{
 
 .flex-display{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -39,4 +40,19 @@ h3{
     color: white;
     font-weight: bolder;
     box-shadow: 0px 0px 5px orangered;
+}
+
+.about-me{
+    background-image: url(images/7.png);
+    background-size: 100%;
+}
+
+h2{
+    font-size: 50px;
+    padding-top: 200px;
+    color: rgba(0, 0, 0, 0.65)
+}
+
+.half-width p{
+    padding-right: 250px;
 }
