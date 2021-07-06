@@ -51,6 +51,8 @@ h3{
 .about-me{
     background-image: url(images/7.png);
     background-size: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .about-me h2{
@@ -63,7 +65,7 @@ h3{
 }
 
 .my-recipes{
-    margin: 5%;
+    margin-bottom: 3%;
 }
 
 #recipe-header{
@@ -73,20 +75,24 @@ h3{
 
 #recipe-caption{
     text-align: center;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
-.recipe-item{
+.racipe-items{
+    margin: auto;
+}
+
+.recipe-title{
     flex-wrap: wrap;
-    width: 25%;
-    margin: 3%;
-    padding: 10px;
+    width: 33%;
+    margin: 5%;
+    padding: 2%;
     box-shadow: 0px 0px 20px gray;
     border-radius: 30px;
 }
 
-.recipe-item img{
+.recipe-title img{
     width: 100%;
     border-radius: 30px;
 }
@@ -111,9 +117,8 @@ footer p{
 
 .popularity{
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    margin-right: 11.5%;
     box-shadow: 0px 0px 20px gray;
     border-radius: 30px;
 }
@@ -121,7 +126,7 @@ footer p{
 .pop-items{
     text-align: center;
     width: 33%;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 .pop-items h1{
