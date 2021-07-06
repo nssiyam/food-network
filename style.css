@@ -91,3 +91,21 @@ h3{
     width: 100%;
     border-radius: 30px;
 }
+
+footer{
+    text-align: center;    
+    background-color: black;
+    padding: 2%;
+}
+
+footer h2{
+    color: gray;
+}
+
+footer h2 span{
+    color: orange;
+}
+
+footer p{
+    color: white;
+}
