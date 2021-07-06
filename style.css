@@ -20,7 +20,7 @@ section{
     width: 90%;
 }
 
-h1{
+.half-width h1{
     font-size: 70px;
     padding-top: 150px;
     color: rgba(0, 0, 0, 0.65)
@@ -68,7 +68,6 @@ h3{
 
 #recipe-header{
     text-align: center;
-    margin-top: 0;
     color: rgba(0, 0, 0, 0.65)
 }
 
@@ -80,7 +79,7 @@ h3{
 
 .recipe-item{
     flex-wrap: wrap;
-    width: 23%;
+    width: 25%;
     margin: 3%;
     padding: 10px;
     box-shadow: 0px 0px 20px gray;
@@ -108,4 +107,23 @@ footer h2 span{
 
 footer p{
     color: white;
+}
+
+.popularity{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-right: 11.5%;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 30px;
+}
+
+.pop-items{
+    text-align: center;
+    width: 33%;
+    margin-bottom: 2%;
+}
+
+.pop-items h1{
+    font-size: 60px;
 }
